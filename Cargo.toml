@@ -6,5 +6,5 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-jsonpath_lib_polars_vendor = "0.0.1"
+jsonpath_lib_polars_vendor = { git = "https://github.com/eitsupi/jsonpath", rev = "4eb5acd4915726d9231081c50f34c9ea025eb58f" }
 serde_json = "1.0.114"
