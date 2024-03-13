@@ -33,8 +33,7 @@ checksum = "b1a46d1a171d865aa5f83f92695765caa047a9b4cbae2cbf37dbd613a793fd4c"
 [[package]]
 name = "jsonpath_lib_polars_vendor"
 version = "0.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f4bd9354947622f7471ff713eacaabdb683ccb13bba4edccaab9860abf480b7d"
+source = "git+https://github.com/ritchie46/jsonpath?rev=653d3cb84217217dc925aded7cac6b3efd39c7f1#653d3cb84217217dc925aded7cac6b3efd39c7f1"
 dependencies = [
  "log",
  "serde",
