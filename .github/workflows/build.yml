@@ -13,6 +13,10 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
+env:
+  ACTIONS_RUNNER_DEBUG: true
+  ACTIONS_STEP_DEBUG: true
+
 defaults:
   run:
     shell: bash
@@ -37,4 +41,4 @@ jobs:
 
       - name: run
         run: |
-          cargo run
+          cargo run --verbose
