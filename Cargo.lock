@@ -33,7 +33,7 @@ checksum = "b1a46d1a171d865aa5f83f92695765caa047a9b4cbae2cbf37dbd613a793fd4c"
 [[package]]
 name = "jsonpath_lib_polars_vendor"
 version = "0.0.1"
-source = "git+https://github.com/eitsupi/jsonpath?rev=870b05ca13cae6d1061d4d8fc4b70ea41dcaf420#870b05ca13cae6d1061d4d8fc4b70ea41dcaf420"
+source = "git+https://github.com/eitsupi/jsonpath?rev=4eb5acd4915726d9231081c50f34c9ea025eb58f#4eb5acd4915726d9231081c50f34c9ea025eb58f"
 dependencies = [
  "log",
  "serde",

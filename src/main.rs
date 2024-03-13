@@ -1,4 +1,4 @@
-extern crate jsonpath_lib_polars_vendor as jsonpath;
+extern crate jsonpath_lib as jsonpath;
 #[macro_use]
 extern crate serde_json;
 
